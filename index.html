@@ -3,18 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mikhael & Sara ✦ September 19, 2026</title>
+<title>Abanoub & Shereen ✦ October 18, 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@200;300;400&family=Great+Vibes&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --gold:#8a8680;--gold-l:#b0aca4;--gold-xl:#e6e2d8;
-  --cream:#f8f6f2;--parchment:#efece5;--linen:#e2ded3;
-  --brown:#1c1c1a;--brown-m:#4a4944;--brown-l:#7c7a72;
-  --rose:#7a1f2b;--white:#ffffff;
-  --env:#c4bfb2;--env-dark:#948d7c;--env-inner:#f1eee6;
-  --seal:#5c1620;--seal-d:#3d0f16;
+  --gold:#b68a42;--gold-l:#d5b576;--gold-xl:#f4e2b9;
+  --cream:#fff9f5;--parchment:#f9ede7;--linen:#f0dfd7;
+  --brown:#492334;--brown-m:#70505a;--brown-l:#96757b;
+  --rose:#ad526d;--white:#ffffff;
+  --env:#ead1b4;--env-dark:#c79e70;--env-inner:#fff5e9;
+  --seal:#a74260;--seal-d:#68243d;
 }
 html{scroll-behavior:smooth}
 body{background:var(--cream);color:var(--brown);font-family:'Cormorant Garamond',serif;overflow-x:hidden}
@@ -141,7 +141,7 @@ body{background:var(--cream);color:var(--brown);font-family:'Cormorant Garamond'
 .seal-txt{
   font-family:'Great Vibes',cursive;
   font-size:clamp(16px,3.5vw,22px);
-  color:rgba(100,20,20,0.9);
+  color:#f7dfb1;
   text-shadow:0 1px 2px rgba(255,255,255,0.25),0 -1px 1px rgba(0,0,0,0.4);
   letter-spacing:1px;
   position:relative;z-index:1;
@@ -155,7 +155,7 @@ body{background:var(--cream);color:var(--brown);font-family:'Cormorant Garamond'
 .env-rose{
   position:absolute;font-size:clamp(22px,4vw,34px);
   opacity:0.25;pointer-events:none;
-  filter:grayscale(1) contrast(1.1);
+  filter:saturate(0.85);
 }
 .env-rose.tl{top:10px;left:14px;transform:rotate(-20deg)}
 .env-rose.tr{top:10px;right:14px;transform:rotate(20deg)}
@@ -267,7 +267,7 @@ nav{
 
 .eyebrow{font-family:'Jost',sans-serif;font-weight:200;font-size:11px;letter-spacing:6px;color:var(--gold);text-transform:uppercase;margin-bottom:36px;opacity:0;animation:fadeUp 0.8s 0.3s forwards}
 .photo-frame{position:relative;width:clamp(220px,34vw,360px);height:clamp(220px,34vw,360px);margin:0 auto 30px;opacity:0;animation:fadeUp 0.9s 0.5s forwards}
-.photo-frame img{width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:50%;border:3px solid rgba(120,116,108,0.55);filter:grayscale(1) contrast(1.12) brightness(1.02);box-shadow:0 12px 36px rgba(0,0,0,0.3)}
+.photo-frame img{width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:50%;border:3px solid rgba(120,116,108,0.55);filter:contrast(1.03) saturate(1.08);box-shadow:0 12px 36px rgba(0,0,0,0.3)}
 .photo-frame::before{content:"";position:absolute;inset:-10px;border-radius:50%;border:0.5px solid rgba(184,148,31,0.25)}
 .photo-frame::after{content:"";position:absolute;inset:-20px;border-radius:50%;border:0.5px dashed rgba(184,148,31,0.15);animation:rotateSlow 30s linear infinite}
 @keyframes rotateSlow{to{transform:rotate(360deg)}}
@@ -389,6 +389,61 @@ footer small{font-family:'Jost',sans-serif;font-weight:200;font-size:9px;letter-
 
 @keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+
+/* Burgundy, blush and champagne finish */
+#intro{background:radial-gradient(ellipse at 50% 35%,#783d54 0%,#492334 55%,#281722 100%)}
+.env-back{background:linear-gradient(145deg,#f1dec5,#d4ad7f);border:1px solid rgba(244,226,185,.4)}
+.env-flap-top{background:linear-gradient(180deg,#f6e5ce,#dfbe96)}
+.env-flap-bl{border-bottom-color:#d0a67e}
+.env-flap-br{border-right-color:#d0a67e}
+.env-rose{opacity:.45}
+.env-cta{color:#f4e2b9;letter-spacing:3px}
+.open-enter{color:rgba(255,239,218,.65);letter-spacing:3px}
+.hero{background:linear-gradient(145deg,#fffaf5 0%,#fae9e6 50%,#f7efe0 100%)}
+.hero-bg{background-image:radial-gradient(circle at 15% 20%,rgba(173,82,109,.13),transparent 50%),radial-gradient(circle at 85% 75%,rgba(182,138,66,.16),transparent 50%)}
+.corner-rose{opacity:.15;filter:none}
+nav{background:rgba(255,249,245,.94);padding:14px 28px;box-shadow:0 3px 20px rgba(73,35,52,.05)}
+.photo-frame img{border:4px solid #d5b576;box-shadow:0 16px 45px rgba(104,36,61,.18)}
+.photo-frame::before{border-color:rgba(182,138,66,.5)}
+.photo-frame::after{border-color:rgba(173,82,109,.3)}
+.names-display{font-size:clamp(48px,9vw,84px);line-height:1.18}
+.date-display{justify-content:center}
+.eyebrow,.sec-lbl-outer{font-weight:400;letter-spacing:4px}
+.cd-section{background:linear-gradient(125deg,#492334,#783d54)}
+.cd-lbl{color:#e4c7b5}
+.verse-sec{background:linear-gradient(135deg,#f9ede7,#fff5e7)}
+.detail-card,.msg-form{border-radius:16px;border-color:rgba(182,138,66,.3);box-shadow:0 10px 32px rgba(73,35,52,.06)}
+.detail-card::before,.msg-form::before{border-radius:11px}
+.detail-card{background:linear-gradient(145deg,#fffdf9,#fff3ee)}
+.map-sec{background:linear-gradient(135deg,#f0dfd7,#f5e9dc)}
+.map-wrap{border-radius:16px;box-shadow:0 12px 32px rgba(73,35,52,.1)}
+.f-group input[type=text],.f-group textarea{border-radius:8px;background:#fff8f3}
+.photo-upload-area{border-radius:10px}
+.btn-submit{background:linear-gradient(110deg,#68243d,#a74260);color:#fff0d5;border-radius:8px;font-weight:400;box-shadow:0 5px 16px rgba(104,36,61,.16)}
+.btn-submit:hover{background:linear-gradient(110deg,#78304b,#b34e6e);transform:translateY(-1px)}
+.msg-card{border-radius:12px;box-shadow:0 6px 20px rgba(73,35,52,.07)}
+footer{background:linear-gradient(125deg,#492334,#68243d)}
+footer small{color:#dfc2b7;line-height:1.8}
+#music-btn{background:#a74260;border-color:#d5b576;width:48px;height:48px}
+:focus-visible{outline:3px solid #b68a42;outline-offset:5px}
+@media(max-width:600px){
+  nav{padding:12px 16px;gap:10px;flex-wrap:wrap;justify-content:center}
+  .nav-brand{font-size:25px}
+  .nav-links{display:flex;gap:16px;justify-content:center}
+  .nav-links a{margin-left:0;letter-spacing:1.5px;font-size:9px}
+  .hero{padding-top:120px;padding-bottom:90px}
+  .d-rule{width:26px}.d-center{padding:0 12px}.d-info{letter-spacing:1.5px;line-height:1.8}
+  .msg-form{padding:28px 20px}.sec-lbl-outer{letter-spacing:3px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  #petal-canvas,.particles{display:none}
+}
+
+.venue-line a,.d-main a{color:inherit;text-decoration:none}
+.venue-line a:hover,.d-main a:hover{text-decoration:underline;text-underline-offset:4px}
+.venue-line span,.d-main span{display:block;margin-top:6px;font-size:.8em;line-height:1.6}
 </style>
 </head>
 <body>
@@ -401,7 +456,7 @@ footer small{font-family:'Jost',sans-serif;font-weight:200;font-size:9px;letter-
   <div class="env-line right"></div>
 
   <div class="env-scene">
-    <div class="env-body" id="envBody">
+    <div class="env-body" id="envBody" role="button" tabindex="0" aria-label="Open your invitation">
       <div class="env-shadow"></div>
       <div class="env-back"></div>
       <div class="env-inner"></div>
@@ -421,15 +476,15 @@ footer small{font-family:'Jost',sans-serif;font-weight:200;font-size:9px;letter-
 
       <!-- wax seal -->
       <div class="wax-seal" id="waxSeal">
-        <span class="seal-txt">M & S</span>
+        <span class="seal-txt">A & S</span>
       </div>
 
       <!-- letter card -->
       <div class="env-letter">
         <div class="letter-orn">✦ &nbsp; ✦ &nbsp; ✦</div>
         <div class="letter-invite">You are invited to the wedding of</div>
-        <div class="letter-names">Mikhael &amp; Sara</div>
-        <div class="letter-date">September 19, 2026 · Heliopolis, Cairo</div>
+        <div class="letter-names">Abanoub &amp; Shereen</div>
+        <div class="letter-date">October 18, 2026 · Heliopolis, Cairo</div>
       </div>
     </div>
 
@@ -444,7 +499,7 @@ footer small{font-family:'Jost',sans-serif;font-weight:200;font-size:9px;letter-
   <div class="particles" id="particles"></div>
 
   <nav>
-    <div class="nav-brand">Mikhael & Sara</div>
+    <div class="nav-brand">Abanoub & Shereen</div>
     <div class="nav-links">
       <a href="#guestbook">Blessings</a>
       <a href="#details">Details</a>
@@ -460,21 +515,21 @@ footer small{font-family:'Jost',sans-serif;font-weight:200;font-size:9px;letter-
     <div class="hero-content">
       <p class="eyebrow">✦ &nbsp; You are invited &nbsp; ✦</p>
       <div class="photo-frame">
-        <img src="1.png" alt="Mikhael and Sara">
+        <img src="1.png" alt="Abanoub and Shereen">
       </div>
       <div class="orn-row">✦ &nbsp; ✦ &nbsp; ✦</div>
-      <div class="names-display">Mikhael <span class="names-amp">&amp;</span> Sara</div>
+      <div class="names-display">Abanoub <span class="names-amp">&amp;</span> Shereen</div>
       <p class="tagline">are joyfully joined in holy matrimony</p>
       <div class="date-display">
         <div class="d-rule"></div>
         <div class="d-center">
-          <div class="d-mo">September</div>
-          <div class="d-num">19</div>
-          <div class="d-info">Saturday · 6:00 in the evening · 2026</div>
+          <div class="d-mo">October</div>
+          <div class="d-num">18</div>
+          <div class="d-info">Sunday · 9:00 in the evening · 2026</div>
         </div>
         <div class="d-rule"></div>
       </div>
-      <p class="venue-line">St.Mary Church &nbsp;—&nbsp; Massara, Shoubra, Cairo</p>
+      <p class="venue-line">St George Church Heliopolis</p>
     </div>
     <div class="scroll-hint">
       <span>Scroll</span>
@@ -512,8 +567,8 @@ footer small{font-family:'Jost',sans-serif;font-weight:200;font-size:9px;letter-
       <div class="sec-lbl-outer">Leave a Blessing</div>
       <div class="msg-form">
         <div class="f-group">
-          <label>Your Name</label>
-          <input type="text" id="msg-name" placeholder="e.g. Sarah & John">
+          <label for="msg-name">Your Name</label>
+          <input type="text" id="msg-name" placeholder="e.g. Your name">
         </div>
         <div class="f-group">
           <label>Add Your Photo (Optional)</label>
@@ -554,12 +609,12 @@ footer small{font-family:'Jost',sans-serif;font-weight:200;font-size:9px;letter-
           </div>
         </div>
         <div class="f-group">
-          <label>Your Message</label>
-          <textarea id="msg-text" rows="4" placeholder="Write your blessing for Mikhael & Sara…"></textarea>
+          <label for="msg-text">Your Message</label>
+          <textarea id="msg-text" rows="4" placeholder="Write your blessing for Abanoub & Shereen…"></textarea>
         </div>
         <button class="btn-submit" onclick="submitMsg()">Send Blessing &nbsp;✦</button>
       </div>
-      <div id="msg-wall"><p class="no-msgs">Be the first to bless Mikhael & Sara ✦</p></div>
+      <div id="msg-wall"><p class="no-msgs">Be the first to bless Abanoub & Shereen ✦</p></div>
     </div>
   </div>
 
@@ -567,8 +622,8 @@ footer small{font-family:'Jost',sans-serif;font-weight:200;font-size:9px;letter-
   <section class="details-sec" id="details">
     <div class="sec-lbl-outer">The Details</div>
     <div class="details-grid">
-      <div class="detail-card"><span class="d-icon">🕖</span><div class="d-title">Date & Time</div><div class="d-main">Saturday, September 19</div><div class="d-sub">2026 · 6:00 in the evening</div></div>
-      <div class="detail-card"><span class="d-icon">⛪</span><div class="d-title">Ceremony</div><div class="d-main">St. Mary Church</div><div class="d-sub">Massara-Shoubra · Cairo</div></div>
+      <div class="detail-card"><span class="d-icon">🕖</span><div class="d-title">Date & Time</div><div class="d-main">Sunday, October 18</div><div class="d-sub">2026 · 9:00 in the evening</div></div>
+      <div class="detail-card"><span class="d-icon">⛪</span><div class="d-title">Ceremony</div><div class="d-main">St George Church Heliopolis</div><div class="d-sub">Heliopolis · Cairo</div></div>
     </div>
   </section>
 
@@ -577,11 +632,11 @@ footer small{font-family:'Jost',sans-serif;font-weight:200;font-size:9px;letter-
     <div class="map-inner">
       <div class="sec-lbl-outer">Find Us</div>
       <div class="map-wrap">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5880.438098498007!2d31.243625899999998!3d30.073149800000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584061d9394da7%3A0x83f8cb0c5eaae6fe!2sSaint%20Mary%20Coptic%20Orthodox%20Church!5e1!3m2!1sen!2seg!4v1788936121948!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        <iframe title="St George Church Heliopolis location" src="https://maps.google.com/maps?q=St%20George%20Church%20Heliopolis%20Cairo&amp;output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
       </div>
       <div class="map-addr">
-        <span>14 st.massara,shoubra، 14 المسره, Rod El Farag, Cairo</span> &nbsp;·&nbsp;
-        <a href="https://share.google/Trvn13Fptnw4FUSfb" target="_blank">Open in Google Maps ↗</a>
+        <span>St George Church Heliopolis</span> &nbsp;·&nbsp;
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=St%20George%20Church%20Heliopolis%20Cairo" target="_blank">Open in Google Maps ↗</a>
       </div>
     </div>
   </div>
@@ -589,8 +644,8 @@ footer small{font-family:'Jost',sans-serif;font-weight:200;font-size:9px;letter-
  
 
   <footer>
-    <div class="footer-names">Mikhael & Sara</div>
-    <small>September 19 · 2026 · Massara-Shoubra, Cairo</small>
+    <div class="footer-names">Abanoub & Shereen</div>
+    <small>October 18 · 2026 · Heliopolis, Cairo</small>
   </footer>
 </div>
 
@@ -650,6 +705,7 @@ const mainEl=document.getElementById('main');
 const bgMusic=document.getElementById('bgMusic');
 const musicBtn=document.getElementById('music-btn');
 let opened=false;
+let revealed=false;
 
 /* Icon always reflects the audio element's ACTUAL state (fixes icon
    getting out of sync when play() is still pending and the button
@@ -657,22 +713,19 @@ let opened=false;
 bgMusic.addEventListener('play',()=>{musicBtn.textContent='🔔';});
 bgMusic.addEventListener('pause',()=>{musicBtn.textContent='🔕';});
 
-envBody.addEventListener('click',openEnvelope);
-document.getElementById('intro').addEventListener('click',function(e){
-  // clicking anywhere on intro after opened triggers reveal
-  if(opened)revealMain();
-});
+
 
 function openEnvelope(){
   if(opened)return;
   opened=true;
   envBody.classList.add('opened');
-  document.getElementById('envCta').textContent='Click again to enter';
-  // after letter slides up, next click reveals main
+  document.getElementById('envCta').textContent='Your invitation awaits…';
+  setTimeout(revealMain, 1400);
 }
 
 function revealMain(){
-  if(!opened)return;
+  if(!opened || revealed)return;
+  revealed=true;
   intro.classList.add('out');
   setTimeout(()=>{
     mainEl.classList.add('show');
@@ -682,13 +735,11 @@ function revealMain(){
   },600);
 }
 
-// first click opens envelope, second click enters
-let clicks=0;
-document.getElementById('intro').addEventListener('click',()=>{
-  clicks++;
-  if(clicks===1){openEnvelope();}
-  else if(clicks>=2&&opened){revealMain();}
+envBody.addEventListener('keydown',e=>{
+  if(e.key==='Enter'||e.key===' '){e.preventDefault();intro.click();}
 });
+// One click opens the seal and reveals the invitation after the animation.
+intro.addEventListener('click', openEnvelope);
 
 function toggleMusic(){
   if(bgMusic.paused){bgMusic.play().catch(()=>{});}
@@ -708,8 +759,8 @@ window.toggleMusic=toggleMusic;
 
 /* ── COUNTDOWN ── */
 function tick(){
-  const diff=new Date("2026-09-19T18:00:00").getTime()-Date.now();
-  if(diff<=0){document.getElementById('countdown').innerHTML='<p style="font-family:\'Cormorant Garamond\',serif;font-style:italic;font-size:28px;color:var(--gold-xl)">Today is the day! 🎉</p>';return;}
+  const diff=new Date("2026-10-18T21:00:00+03:00").getTime()-Date.now();
+  if(diff<=0){document.getElementById('countdown').innerHTML='<p style="font-family:\'Cormorant Garamond\',serif;font-style:italic;font-size:28px;color:var(--gold-xl)">Forever begins here ✦</p>';return;}
   const d=Math.floor(diff/864e5),h=Math.floor(diff%864e5/36e5),m=Math.floor(diff%36e5/6e4),s=Math.floor(diff%6e4/1e3);
   document.getElementById('cd-d').textContent=String(d).padStart(2,'0');
   document.getElementById('cd-h').textContent=String(h).padStart(2,'0');
@@ -771,7 +822,7 @@ import { getFirestore, collection, addDoc, getDocs, orderBy, query }
 
 const app = initializeApp(firebaseConfig);
 const db  = getFirestore(app);
-const COL = "blessings";
+const COL = "abanoub_shereen_blessings";
 
 function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
 function textColor(bg){
@@ -783,7 +834,7 @@ function subColor(bg){return textColor(bg).includes('240')?'rgba(240,216,144,0.5
 
 function render(msgs){
   const wall=document.getElementById('msg-wall');
-  if(!msgs.length){wall.innerHTML='<p class="no-msgs">Be the first to bless Mikhael & Sara ✦</p>';return;}
+  if(!msgs.length){wall.innerHTML='<p class="no-msgs">Be the first to bless Abanoub & Shereen ✦</p>';return;}
   wall.innerHTML='<div class="board-wrap">'+msgs.map(m=>{
     const tc=textColor(m.color||'#fdfaf3'),sc=subColor(m.color||'#fdfaf3');
     return`<div class="msg-card" style="background:${esc(m.color||'#fdfaf3')};color:${tc}">
